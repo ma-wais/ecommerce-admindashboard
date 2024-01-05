@@ -20,9 +20,7 @@ const App = () => {
     <Router>
       <Suspense fallback={<Loader />}>
         <Routes>
-          <Route
-              path="/"
-              element={
+          <Route path="/" element={
                 <Link to="/admin/dashboard">
                   <button>Visit Dashboard</button>
                 </Link>

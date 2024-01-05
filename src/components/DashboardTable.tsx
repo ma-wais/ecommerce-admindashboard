@@ -37,7 +37,7 @@ const DashboardTable = ({data = []}: { data: DataType[]}) => {
     columns,
     data,
     "transaction-box",
-    "Top Transaction"
+    "Top Transaction",
   )();
 };
 

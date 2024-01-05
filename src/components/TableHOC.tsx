@@ -2,7 +2,7 @@ import { AiOutlineSortAscending, AiOutlineSortDescending } from "react-icons/ai"
 import { Column, TableOptions, useTable,useSortBy, usePagination } from "react-table"
 
 function TableHOC<T extends Object>(columns: Column<T>[], data: T[],containerClassname:string, 
-    heading:string, showPagination:boolean
+    heading:string, showPagination: boolean = true
     ) {
   return function HOC() {
     const options:TableOptions<T> = {
